@@ -10,6 +10,7 @@ function Dashboard(){
         <img src="Dashboard1.png" className="dashboard" />
         <img src="layout2.png" className="layout2" />
         <h2>hello</h2>
+        <h3>helloooo</h3>
 
         </div>
         </>
