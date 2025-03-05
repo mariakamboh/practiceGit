@@ -9,7 +9,6 @@ function Dashboard(){
         <img src="layout2.png" className="layout1" />
         <img src="Dashboard1.png" className="dashboard" />
         <img src="layout2.png" className="layout2" />
-        <h1>heloo</h1>
        
 
         </div>
