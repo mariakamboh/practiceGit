@@ -1,43 +1,50 @@
+/* Reset default margins and paddings */
+html, body {
+    width: 100%;
+    height: 100vh; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: clip; 
+}
+
 .grid-container {
     display: grid;
+    width: 1024px;  
+    height: 100vh; 
     grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto auto; 
     justify-items: center;
     align-items: center;
-    grid-template-rows: auto auto; /* Two rows */
-
-
-
-   
-.dashboard{
-    width: 130.61126708984375;
-    height: 185.2213897705078;
-    top: 331.94px;
-    left: 894.39px;
-    grid-column: 5 / 6;
-    
-
-    
-.layout1{
-   width: 760px;
-   height: 968px;
-   background: linear-gradient(90.37deg, rgba(255, 255, 255, 0) -11.87%, rgba(255, 255, 255, 0.160992) 19.74%, rgba(255, 255, 255, 0.553696) 46.31%, rgba(255, 255, 255, 0.633625) 70.8%, #FFFFFF 98.46%);
-   transform: rotate(180deg);
-   grid-column: 1 / 4;
+    min-height: 0; 
 }
+
+.dashboard {
+    width: 100px;  
+    height: 140px;
+    margin-left: 50px;
+    position: relative;
+    grid-column: 5 / 6;
+
+}
+
+.layout1 {
+    width: 500px;  
+    height: 100vh;
+    background: linear-gradient(90.37deg, rgba(255, 255, 255, 0) -11.87%, rgba(255, 255, 255, 0.160992) 19.74%, rgba(255, 255, 255, 0.553696) 46.31%, rgba(255, 255, 255, 0.633625) 70.8%, #FFFFFF 98.46%);
+    transform: rotate(180deg);
+    grid-column: 1 / 4;
+}
+
 .layout2 {
-    width: 1362px;
-    height: 968px;
-    right: 0;
-    top: 0;
+    width: 660px;  
+    height: 100vh; 
     grid-column: 7 / 12;
 }
-.logo{
-    width: 40;
-    height: 54;
-    top: 618px;
-    left: 940px;
-    gap: 11px;
+
+.logo {
+    width: 30px;  
+    height: 40px;
+    position: relative;
     grid-column: 5 / 6;
-
-
 }
